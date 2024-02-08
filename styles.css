@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+.head{
+position:absolute;
+    background-color: transparent;
+    width: 95%;
+    height:8%;
+    z-index: 1;
+    margin-top: -100px;
+}
+#under{
+    bottom: 0px;
+    list-style: none;
+}
+#under li{
+    float: left;
+    margin-left: 15%;
+    
+}
+
+#footer{
+    background-color: aqua;
+    height: 100px;
+    margin-top: 140px;
+    width: 100%;
+}
+.button{
+    margin-left: 50%;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+}
+.form-control:invalid{
+    animation: shake 0.2s;
+    border: 2px solid red;
+}
+.form-control:valid{
+    border: 2px solid green;
+} @keyframes shake{
+    0%{transform: translateX(5px);}
+    50%{transform: translateX(-5px);}
+    100%{transform: translateX(5px);}
+}
+
+
+
